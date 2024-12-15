@@ -2,15 +2,15 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
+  name: "Anand Pandey",
   initials: "DV",
   url: "https://dillion.io",
-  location: "San Francisco, CA",
+  location: "West Bengal, India",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "I am an aspiring software engineer with a passion for building scalable and reliable software. I have experience working with a variety of technologies and have a strong foundation in computer science. I am always looking for new opportunities to learn and grow as a developer.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "I am pursuing my Bachelor's Degree in Computer Science and Engineering. I am currently in my second year of college. I am a web developer and have built a variety of Full Stack Projects. I am also decent at DSA and have solved over 250 questions on leetcode.",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -18,24 +18,30 @@ export const DATA = {
     "Typescript",
     "Node.js",
     "Python",
-    "Go",
     "Postgres",
     "Docker",
     "Kubernetes",
     "Java",
     "C++",
+    "Express",
+    "MongoDB",
+    "Javascript",
+    "GraphQL",
+    "NGINX",
+    "AWS",
+    "Socket.io",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
+    email: "anand8584pandey@gmail.com",
     tel: "+123456789",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/anand1564",
         icon: Icons.github,
 
         navbar: true,
@@ -146,36 +152,20 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
-    },
-    {
-      school: "University of Waterloo",
+      school: "Hooghly Engineering and Technology College",
       href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
+      degree: "Bachelor's in Computer Science and Engineering (B.Tech)",
       logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
+      start: "2023",
+      end: "2027",
     },
     {
-      school: "Wilfrid Laurier University",
+      school: "Techno India Group Public School",
       href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
+      degree: "High School",
       logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      start: "2020",
+      end: "2022",
     },
   ],
   projects: [
