@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 
 interface Props {
+  id: string;
   title: string;
   description: string;
   dates: string;
@@ -15,11 +16,10 @@ interface Props {
   }[];
 }
 
-export function HackathonCard({
+export function WorkingOnCard({
   title,
   description,
   dates,
-  location,
   image,
   links,
 }: Props) {
@@ -36,9 +36,6 @@ export function HackathonCard({
           <time className="text-xs text-muted-foreground">{dates}</time>
         )}
         <h2 className="font-semibold leading-none">{title}</h2>
-        {location && (
-          <p className="text-sm text-muted-foreground">{location}</p>
-        )}
         {description && (
           <span className="prose dark:prose-invert text-sm text-muted-foreground">
             {description}
