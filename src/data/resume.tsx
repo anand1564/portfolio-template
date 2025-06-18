@@ -33,7 +33,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "https://medium.com/@anand8584pandey", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "anand8584pandey@gmail.com",
@@ -274,19 +274,19 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
   ],
-  workingOn:[
-    {
-      id: "1",
-      title:"UI",
-      description:"I am working on a new UI library. It will be a collection of reusable components that can be used to build web applications. It will be built using React and TailwindCSS.",
-      image:"",
-      links:[
-        {
-          icon: <Icons.github className="size-3" />,
-          title: "Source",
-          href: "",
-        },
-      ],
-    }
-  ]
+  // workingOn:[
+  //   {
+  //     id: "1",
+  //     title:"UI",
+  //     description:"I am working on a new UI library. It will be a collection of reusable components that can be used to build web applications. It will be built using React and TailwindCSS.",
+  //     image:"",
+  //     links:[
+  //       {
+  //         icon: <Icons.github className="size-3" />,
+  //         title: "Source",
+  //         href: "",
+  //       },
+  //     ],
+  //   }
+  // ]
 } as const;

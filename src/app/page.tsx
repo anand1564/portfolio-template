@@ -165,12 +165,14 @@ export default function Page() {
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I am currently learning web3 development and also trying to improve my UI skills. I am also working on the 
-                  fundamentals of computer science and algorithms. Here are some of the projects I am working on.
+                  fundamentals of computer science and algorithms.I am working on a UI library that will be a collection of reusable components that can be used to build web applications. It will be built using React and TailwindCSS.
+                  <br />
+                  I am also working on creating a redis like database and http server from scratch. I am also working on a few other projects that I will be sharing soon.
                 </p>
               </div>
             </div>
           </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 14}>
+          {/* <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
               {DATA.workingOn.map((project, id) => (
                 <BlurFade
@@ -186,7 +188,7 @@ export default function Page() {
                 </BlurFade>
               ))}
             </ul>
-          </BlurFade>
+          </BlurFade> */}
         </div>
       </section>
       <section id="contact">
